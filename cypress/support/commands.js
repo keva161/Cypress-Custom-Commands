@@ -1,4 +1,4 @@
-Cypress.Commands.add("login", (data) => {
+Cypress.Commands.add("register", (data) => {
 	cy.contains(
 		"Docket is fully fledged Todo web application for you to practise and learn about API testing."
 	).should("be.visible");
